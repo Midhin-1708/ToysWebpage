@@ -94,25 +94,28 @@ export const products = [
     description:
       'A shape-sorting puzzle board that teaches counting, colors, and problem-solving. Designed with early-childhood educators for hands-on learning fun.',
   },
-  {
-    id: 'p6',
-    name: 'Snuggle Bunny Rattle',
-    category: 'Baby Toys',
-    price: 899,
-    oldPrice: null,
-    rating: 4.9,
-    reviews: 402,
-    badge: 'New',
-    image:
-      'https://images.unsplash.com/photo-1587145717115-8b3e2b0b3f27?q=80&w=800&auto=format&fit=crop',
-    gallery: [
-      'https://images.unsplash.com/photo-1587145717115-8b3e2b0b3f27?q=80&w=1000&auto=format&fit=crop',
-      'https://images.unsplash.com/photo-1560859251-d563a49c5e59?q=80&w=1000&auto=format&fit=crop',
-      'https://images.unsplash.com/photo-1596461404969-9ae70f2830c1?q=80&w=1000&auto=format&fit=crop',
-    ],
-    description:
-      'A gentle rattle toy with soft crinkle ears and a soothing sound, designed for newborns and infants to grasp, chew, and explore safely.',
-  },
+{
+  id: 'p6',
+  name: 'Snuggle Bunny Rattle',
+  category: 'Baby Toys',
+  price: 899,
+  oldPrice: null,
+  rating: 4.9,
+  reviews: 402,
+  badge: 'New',
+
+  image:
+    'https://images.unsplash.com/photo-1596461404969-9ae70f2830c1?q=80&w=800&auto=format&fit=crop',
+
+  gallery: [
+    'https://images.unsplash.com/photo-1596461404969-9ae70f2830c1?q=80&w=1000&auto=format&fit=crop',
+    'https://images.unsplash.com/photo-1560859251-d563a49c5e59?q=80&w=1000&auto=format&fit=crop',
+    'https://images.unsplash.com/photo-1599623560574-39d485900c95?q=80&w=1000&auto=format&fit=crop',
+  ],
+
+  description:
+    'A gentle rattle toy with soft crinkle ears and a soothing sound, designed for newborns and infants to grasp, chew, and explore safely.',
+},
   {
     id: 'p7',
     name: 'Mega City Block Set',
