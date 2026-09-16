@@ -192,25 +192,28 @@ export const products = [
     description:
       'An easy-launch kite paired with a soft-edge frisbee for sunny park days. Bright, wind-catching design that gets airborne with just a light jog.',
   },
-  {
-    id: 'p11',
-    name: 'Letters & Numbers Learning Tower',
-    category: 'Educational Toys',
-    price: 2399,
-    oldPrice: 2899,
-    rating: 4.9,
-    reviews: 245,
-    badge: 'Bestseller',
-    image:
-      'https://images.unsplash.com/photo-1616627981705-4a2c2273bea3?q=80&w=800&auto=format&fit=crop',
-    gallery: [
-      'https://images.unsplash.com/photo-1616627981705-4a2c2273bea3?q=80&w=1000&auto=format&fit=crop',
-      'https://images.unsplash.com/photo-1544816155-12df9643f363?q=80&w=1000&auto=format&fit=crop',
-      'https://images.unsplash.com/photo-1618842676088-c4d48a6a7c9d?q=80&w=1000&auto=format&fit=crop',
-    ],
-    description:
-      'A stackable learning tower that teaches letters, numbers, and shapes through colorful tactile pieces. A favorite in Montessori-inspired playrooms.',
-  },
+{
+  id: 'p11',
+  name: 'Letters & Numbers Learning Tower',
+  category: 'Educational Toys',
+  price: 2399,
+  oldPrice: 2899,
+  rating: 4.9,
+  reviews: 245,
+  badge: 'Bestseller',
+
+  image:
+    'https://images.unsplash.com/photo-1509062522246-3755977927d7?q=80&w=800&auto=format&fit=crop',
+
+  gallery: [
+    'https://images.unsplash.com/photo-1509062522246-3755977927d7?q=80&w=1000&auto=format&fit=crop',
+    'https://images.unsplash.com/photo-1587654780291-39c9404d746b?q=80&w=1000&auto=format&fit=crop',
+    'https://images.unsplash.com/photo-1596461404969-9ae70f2830c1?q=80&w=1000&auto=format&fit=crop',
+  ],
+
+  description:
+    'A stackable learning tower that teaches letters, numbers, and shapes through colorful tactile pieces. A favorite in Montessori-inspired playrooms.',
+},
   {
     id: 'p12',
     name: 'Wobbly Duck Baby Gym',
