@@ -1,0 +1,88 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  scroll-behavior: smooth;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  overflow-x: hidden;
+  background-color: #FFF8EC;
+  font-family: 'Nunito', sans-serif;
+}
+
+/* Hide scrollbar but keep scroll functionality */
+::-webkit-scrollbar {
+  display: none;
+}
+html {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+h1, h2, h3, h4, h5, .font-display {
+  font-family: 'Baloo 2', cursive;
+}
+
+#root {
+  width: 100%;
+  overflow-x: hidden;
+}
+
+.container-inner {
+  width: 100%;
+  max-width: 1320px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+}
+
+@media (min-width: 768px) {
+  .container-inner {
+    padding-left: 3rem;
+    padding-right: 3rem;
+  }
+}
+
+.text-outline {
+  -webkit-text-stroke: 1.5px #1B2A4A;
+}
+
+.btn-pop {
+  transition: transform 0.25s cubic-bezier(0.34, 1.56, 0.64, 1), box-shadow 0.25s ease;
+}
+.btn-pop:hover {
+  transform: translateY(-4px) scale(1.03);
+}
+.btn-pop:active {
+  transform: translateY(0px) scale(0.97);
+}
+
+.card-tilt {
+  transform-style: preserve-3d;
+  perspective: 1000px;
+}
+
+.bg-dots {
+  background-image: radial-gradient(rgba(27,42,74,0.12) 1.5px, transparent 1.5px);
+  background-size: 22px 22px;
+}
+
+.clip-wave {
+  clip-path: polygon(0 0, 100% 0, 100% 85%, 50% 100%, 0 85%);
+}
+
+.focus-glow:focus {
+  outline: none;
+  box-shadow: 0 0 0 4px rgba(255,210,63,0.45);
+  border-color: #FF6F61;
+}
